@@ -1,15 +1,18 @@
 # KafkaStarted
 
+```
 data-collector - send message
 Change application.yml:
 server:
   port: 8087
+```  
 
-
+```
 data-calculator - read message
 Change application.yml:
 server:
   port: 8088
+```    
 
 # run to start Kafka service
 /data-collector/extra/start_kafka.sh
