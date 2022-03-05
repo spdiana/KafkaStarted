@@ -1,0 +1,13 @@
+debug: false
+
+spring:
+  profiles:
+    active: test
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+    demo-topic: demo-data-topic
+
+event_seed:
+  value: ${random.int[1,10]}
+

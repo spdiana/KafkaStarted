@@ -1,0 +1,16 @@
+debug: false
+
+server:
+  port: 8087
+  servlet:
+    contextPath: /datacolletor/v1
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+    demo-topic: demo-data-topic
+
+event_seed:
+  value: ${random.int[1,10]}
+

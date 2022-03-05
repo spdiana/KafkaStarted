@@ -1,0 +1,23 @@
+{
+  "namespace": "com.example",
+  "type": "record",
+  "name": "PersonEvent",
+  "fields": [
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "seedValue",
+      "type": "int"
+    }
+  ]
+}
